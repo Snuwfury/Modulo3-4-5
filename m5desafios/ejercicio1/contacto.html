@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/ejercicio1/contacto.css">
+</head>
+<body>  
+  
+    <!-- formulario de contacto en html y css -->  
+  
+    <div class="contacto">
+  
+      <div class="formulario">  
+        <nav>
+            <ul>
+                <li><img src="/ejercicio1/M5-logo-azul.svg" id="logo" alt="logo"></li>
+                <li><a class="active bold" href="/ejercicio1/index.html"><p>HOME</p></a></li>
+                <li><a class="active regular" href="#contact" id="cont"><p>CONTACTO</p></a></li>
+            </ul>
+        </nav>    
+        <p class="bold h1">¿Querés que nos contactemos con vos?</p>
+          <p class="regular h3">Dejanos tu consulta:</p>
+            <form>
+                  <p>
+                    <label for="nombre" class="bold">Nombre Completo
+                      <span>*</span>
+                    </label>
+                      <input type="text" 
+                      name="introducir_nombre" 
+                      id="nombre" 
+                      required="obligatorio" 
+                      placeholder="Escribi tu nombre">
+                  </p>
+                
+                  <p>
+                    <label for="email" class="bold">Email
+                      <span>*</span>
+                    </label>
+                      <input type="email" 
+                      name="IntroducirEmail" 
+                      id="email" 
+                      required="obligatorio" 
+                      placeholder="Escribi tu Email">
+                  </p>
+              
+                  <p>
+                    <label for="comentario" class="bold">Comentario
+                    </label>
+                      <input type="text" 
+                      name="IntroducirComentario" 
+                      id="comentario" 
+                      placeholder="Dejanos un comentario!">
+                  </p>
+
+                  <button type="reset" 
+                  name="ResetearFormulario" 
+                  class="naranja"><p class="bold fsiz">Resetear</p></button>
+                  <button type="submit" 
+                  name="EnviarFormulario" 
+                  id="enviar"><p class="bold fsiz">Enviar</p></button>
+
+                  <p class="alert">
+                    <span> * </span>los campos son obligatorios.
+                  </p>          
+            </form>
+      </div>  
+    </div>
+    <footer class="piePagina">
+      <div class="blueBar">
+          <img src="/ejercicio1/M5-logo-blanco.svg" alt="">
+      </div>
+  </footer>
+  </body>
+</html>

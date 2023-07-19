@@ -1,0 +1,84 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+
+/*VARIABLES*/
+:root{
+    --font-family: 'Mulish', sans-serif;
+}
+
+
+/*DISEÑO ESTRUCTURA*/
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #f6f7ff;
+    font-family: var(--font-family);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+input{
+    width: 500px;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-family: var(--font-family);
+    font-size: 18.66px;
+    color: #414166;
+    box-sizing: border-box; 
+}
+button{
+    width: 500px;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-style: none;
+    font-family: var(--font-family);
+    font-size: 20px;
+    background-color: #0a2ff1;
+    color: #f6f7ff;
+}
+p{
+    color: #04146c;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+a{
+    font-size: 18.66px;
+    color: #0a2ff1;
+    text-decoration: none;
+    line-height: 50px;
+}
+div{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-top: 10px;
+}
+
+
+/*CLASES*/
+.regular{
+    font-weight: 400;
+}
+.semibold{
+    font-weight: 600;
+}
+.bold{
+    font-weight: 700;
+}
+.linea{
+    background-color: black;
+    height: 20px;
+    width: 90vw;
+}
