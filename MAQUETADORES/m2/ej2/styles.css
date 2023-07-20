@@ -1,0 +1,85 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap');
+
+:root{
+    --font-family: 'Mulish', sans-serif;
+}
+
+/*ESTRUCTURA*/
+*{
+    font-family: var(--font-family);
+margin: 0;
+padding: 0;
+}
+body{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+div p{
+    color: #04146c;
+    font-size: 26.66px;
+}
+h1{
+    font-size:80px;
+    color: #0a2ff1;
+    width: 50%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+button{
+    height: 70px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;
+    background-color: #0a2ff1;    
+    width: 400px;   
+    cursor: pointer;
+    display: block;
+}
+button p{
+    margin: auto;
+     font-size: 29.33px;
+     font-family: var(--font-family);
+     text-align: center;
+ }
+
+
+/*ID'S*/
+ #subtitle{
+    color: #0a2ff1;
+    font-size: 40px;
+}
+#parrafo{
+    display: flex;
+}
+#azul {
+    color: white;
+}
+
+/*CLASES*/
+.black{
+    font-weight: 900;
+}
+.bold{
+    font-weight: 700;
+}
+.regular{
+    font-weight: 400;
+}
+.btnazul{
+    font-family: 'Roboto';
+font-weight: normal;
+font-size: 40px;
+background-color: #0a2ff1;
+}
+.spc{
+    margin-left: 5px;
+}
+.mrg{
+    margin-bottom: 30px;
+}
